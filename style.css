@@ -6,27 +6,84 @@
 }
 @font-face {
     font-family: IBMPlexMono; 
-    src: url("fonts/IBMPlexMono.woff") format("woff");
+    src: url("fonts/IBMPlexMono-MediumItalic.woff") format("woff");
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+    font-family: IBMPlexMono; 
+    src: url("fonts/IBMPlexMono-Medium.woff") format("woff");
 	font-weight: normal;
 	font-style: normal;
 }
 
-nav {
-	
-	
+@font-face {
+    font-family: PixelOperator; 
+    src: url("fonts/PixelOperator.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
 }
+
+
+
+nav {
+	text-align: center;
+}
+
+nav li a{
+	
+	display: block;
+
+	width: 500px;
+	padding:10px;
+	color: white;
+	border-radius: 12px;
+	background-color: #1F1F1F;
+	text-decoration:none;
+	font-family: IBMPlexMono;
+}
+
+nav li a:hover {
+	display: block;
+	border-radius: 12px;
+	color: #090B24;
+	background-color: #79C5FE;
+	text-decoration:none;
+	font: IBMPlexMono;
+}
+
+
+
+
 .titre {
+
+	text-align: center;
 	font-family: "PROLOGIK";
 	color: white;
+	font-size: 40px;
+
+}
+
+main {
+	text-align: center;
+}
+
+.explanation {
+	font-family: PixelOperator;
+	text-shadow: 2px 2px 1px black;
+	color: white;
+	font-size:20px
 }
 
 body {
-	margin: center;
-	text-align: center;
-	font-family: IBMPlexMono;
+	
+	
 	background-color: black;
     background-image:url('background/realSpinBoule.jpg');
 	background-size:100%;
-	background-attachment:local;
+	background-attachment:scroll;
+	
+	font-family: "IBMPlexMono";
 	
 }
