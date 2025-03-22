@@ -1,7 +1,31 @@
+@font-face {
+    font-family: PROLOGIK; 
+    src: url("fonts/PROLOGIK.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+    font-family: IBMPlexMono; 
+    src: url("fonts/IBMPlexMono.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
 
+nav {
+	
+	
+}
+.titre {
+	font-family: "PROLOGIK";
+	color: white;
+}
 
 body {
-    background-image:url('background/spinningBoule.png');
+	margin: center;
+	text-align: center;
+	font-family: IBMPlexMono;
+	background-color: black;
+    background-image:url('background/realSpinBoule.jpg');
 	background-size:100%;
 	background-attachment:local;
 	
