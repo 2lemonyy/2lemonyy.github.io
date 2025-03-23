@@ -27,48 +27,57 @@
 
 
 
-nav {
-	text-align: center;
+nav ul {
+
+	list-style-type:none;
+	padding-left:0;
+	display:flex;
+	flex-wrap:wrap;
 }
 
 nav li a{
 	
-	display: block;
-
-	width: 500px;
-	padding:10px;
-	color: white;
-	border-radius: 12px;
 	background-color: #1F1F1F;
+	padding:10px;
+	color: #FFFFFF;
+	border-radius: 5px;
+	
 	text-decoration:none;
 	font-family: IBMPlexMono;
 }
 
-nav li a:hover {
-	display: block;
-	border-radius: 12px;
-	color: #090B24;
-	background-color: #79C5FE;
+nav li a:hover{
+	
+
+	padding:10px;
+	color: #09032F;
+
+	background-color: #3DA0D4;
 	text-decoration:none;
-	font: IBMPlexMono;
+	font-family: IBMPlexMono;
 }
-
-
-
 
 .titre {
 
 	text-align: center;
 	font-family: "PROLOGIK";
 	color: white;
-	font-size: 40px;
+	font-size: 35px;
 
 }
 
 main {
 	text-align: center;
+	display: block
+	
 }
 
+.introduction{
+	text-align: center;
+	font-family: PixelOperator;
+	color: white;
+	font-size: 22px;
+}
 .explanation {
 	font-family: PixelOperator;
 	text-shadow: 2px 2px 1px black;
@@ -77,13 +86,13 @@ main {
 }
 
 body {
-	
-	
+	display: block;
+	block-size: 900px;
 	background-color: black;
     background-image:url('background/realSpinBoule.jpg');
 	background-size:100%;
 	background-attachment:scroll;
 	
-	font-family: "IBMPlexMono";
+	
 	
 }
