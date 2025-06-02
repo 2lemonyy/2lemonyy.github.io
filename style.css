@@ -36,11 +36,11 @@ nav ul {
 
 nav li a{
 	
-	background-color: #1F1F1F;
+	background-color: #1C1C1C;
 	
 	padding: 6px;
 	color: #FFFFFF;
-	border-radius: 5px;
+	
 	
 	text-decoration:none;
 	font-family: IBMPlexMono;
@@ -50,9 +50,9 @@ nav li a:hover{
 
 
 	padding: 6px;
-	color: #09032F;
+	color: white;
 
-	background-color: #3DA0D4;
+	background-color: black;
 	text-decoration:none;
 	font-family: IBMPlexMono;
 }
@@ -104,8 +104,9 @@ main {
 
 body {
 
-	background-color: black;
+	background-color: #1C1C1C;
     background-image:url('background/realSpinBoule.jpg');
+	background-blend-mode: ;
 	background-size:100%;
 	background-attachment:scroll;
 	background-repeat: no-repeat;
